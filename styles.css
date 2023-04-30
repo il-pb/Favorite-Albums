@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kristi&family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 580px;
+    border-radius: 5px;
+    background-color: rgba(200, 200, 200, .6);
+    box-shadow: -5px 5px 10px rgb(100, 100, 100);
+}
+
+.container {
+    padding: 25px;
+}
+
+h1 {
+    font-family: "Kristi", sans-serif;
+    font-size: 55px;
+    position: absolute;
+    top: -40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Kristi",sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        width: 330px;
+        height: 480px;
+    }
+
+    h1 {
+        font-size: 45px;
+        top: -30px;
+    }
+
+    img {
+        width: 275px;
+        height: 275px;
+    }
+}
